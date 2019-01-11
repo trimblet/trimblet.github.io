@@ -1,0 +1,89 @@
+{
+  "basics": {
+    "name": "T.J. Trimble",
+    "phone": "425.218.7467",
+    "email": "trimblet@me.com"
+  },
+  "work": [
+    {
+      "company": "PRO Unlimited @ Facebook",
+      "location": "Seattle, WA",
+      "description": "Led a team of three computational linguists to develop tools for data annotation, quality management, and metrics.",
+      "startDate": "2017-07-17",
+      "position": "Linguistic Tools Engineering Lead",
+      "highlights": [
+        "Tools development: Developed CLI and web-based tools for ontology development, annotation quality, data quality, annotator training, inter-annotator agreement and model metrics, guidelines management, and annotation visualization in Python, PHP/Hack, and JavaScript/React.",
+        "Development leadership: Managed two direct reports and the software tasks of seven computational linguists, organizing projects and workloads, and providing technical leadership and mentorship. Coordinated with other teams, built internal and external relationships, and developed individuals’ skills. Consulted on contracts for Quality Assurance and technical requirements.",
+        "Dialogue Agent Semantics: Worked closely with client to develop schema, ontology, and guidelines for tree-based, task oriented semantic annotation from model inception through product delivery of Facebook Portal. Managed annotators and data for quality data deliverables. Coordinated work across the product pipeline, connecting disparate product development cycles and organizing work to connect critical ontological ideas and infrastructure.",
+        "Hiring and onboarding: Created and developed hiring goals, job postings, core competencies, and interview questions for technical and non-technical roles in collaboration with key stake holders and peers. Conducted and reviewed dozens of interviews."
+      ]
+    },
+    {
+      "company": "FirstRain",
+      "location": "San Mateo, CA",
+      "description": "Led the injection of NLP techniques across several products",
+      "startDate": "2015-04-06",
+      "endDate": "2016-10-07",
+      "position": "Natural Language Processing Engineer",
+      "highlights": [
+        "Information Extraction: Owned and improved an Information Extraction engine processing thousands of documents every day, built on top of Stanford’s TokensRegex system.",
+        "Entity Linking: Designed, developed, and deployed a system matching named entities with topics over 100,000 documents per day."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Washington",
+      "area": "Computational Linguistics",
+      "studyType": "Master of Science",
+      "startDate": "2012-09-24",
+      "endDate": "2014-12-05",
+      "description": "NLP, data science, rule based systems.",
+      "courses": [
+        "Thesis: Extended the Grammar Matrix, an open source grammar engineering project using HPSG, to enable the morphological, syntactic, and semantic analysis of adjectives cross-linguistically.",
+        "Natural Language Processing: tokenization, POS tagging, chunking, parsing, word sense disambiguation, sentiment analysis, coreference resolution, etc. using FSA/FSTs, CKY, etc.",
+        "Machine Learning: classification, clustering, and sequence labeling using Neural Networks (DNN, CNN, RNN, etc.), Naïve Bayes, MaxEnt/Logistic Regression, K-means, etc."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Natural languages",
+      "keywords": [
+        "English (native)",
+        "French (intermediate)",
+        "Japanese (beginner)",
+        "Italian (beginner)"
+      ]
+    },
+    {
+      "name": "Programming languages",
+      "keywords": [
+        "Python (7 years)",
+        "JavaScript/React (7 years)",
+        "PHP/Hack (8 years)",
+        "Java (5 years)"
+      ]
+    },
+    {
+      "name": "NLP Packages",
+      "level": "4 years",
+      "keywords": ["nltk", "coreNLP"]
+    },
+    {
+      "name": "NLP/Machine Learning Software Packages",
+      "level": "2 years",
+      "keywords": ["TensorFlow", "NumPy"]
+    },
+    {
+      "name": "VCS",
+      "level": "8 years",
+      "keywords": ["git", "svn", "mercurial"]
+    },
+    {
+      "name": "IDE",
+      "level": "6 years",
+      "keywords": ["Atom/Nuclide", "Eclipse"]
+    }
+  ]
+}
