@@ -76,9 +76,18 @@ a {
   list-style-type: circle;
 }
 
+.sectionContent .company {
+  font-weight: bold;
+  display: block;
+}
+
+.sectionContent .jobTitle {
+  font-weight: bold;
+  display: inline-block;
+}
+
 .sectionContent .title {
   font-weight: bold;
-  width: 50%;
   display: inline-block;
 }
 
@@ -109,7 +118,10 @@ a {
 }
 
 .skillBlock {
-  margin-bottom: 4px;
+  /* margin-bottom: 4px; */
+  width: 32%;
+  vertical-align: top;
+  display: inline-block;
 }
 
 .jobBlock {
