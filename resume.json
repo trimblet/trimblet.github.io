@@ -1,32 +1,46 @@
 {
   "basics": {
-    "name": "T.J. Trimble"
+    "name": "T.J. Trimble",
+    "label": "Linguist",
+    "location": {
+      "city": "Seattle",
+      "region": "WA"
+    }
+  },
+  "meta": {
+    "theme": "jsonresume-theme-actual"
   },
   "work": [
     {
-      "company": "PRO Unlimited @ Facebook",
+      "position": "Senior Linguist",
+      "name": "Meta",
       "location": "Seattle, WA",
-      "description": "Led a team of three computational linguists to develop tools for data annotation, quality management, and metrics.",
-      "startDate": "2017-07-17",
-      "position": "Linguistic Tools Engineering Lead",
-      "highlights": [
-        "Tools development: Developed CLI and web-based tools for ontology development, annotation quality, data quality, annotator training, inter-annotator agreement and model metrics, guidelines management, and annotation visualization in Python, PHP/Hack, and JavaScript/React.",
-        "Development leadership: Managed two direct reports and the software tasks of seven computational linguists, organizing projects and workloads, and providing technical leadership and mentorship. Coordinated with other teams, built internal and external relationships, and developed individuals’ skills. Consulted on contracts for Quality Assurance and technical requirements.",
-        "Dialogue Agent Semantics: Worked closely with client to develop schema, ontology, and guidelines for tree-based, task oriented semantic annotation from model inception through product delivery of Facebook Portal. Managed annotators and data for quality data deliverables. Coordinated work across the product pipeline, connecting disparate product development cycles and organizing work to connect critical ontological ideas and infrastructure.",
-        "Hiring and onboarding: Created and developed hiring goals, job postings, core competencies, and interview questions for technical and non-technical roles in collaboration with key stake holders and peers. Conducted and reviewed dozens of interviews."
-      ]
+      "startDate": "2019-05-27",
+      "summary": "**Linguistics**: Acted as **linguistic project lead** for major organization initiatives, developing linguistic foundation and future for **Facebook Assistant** on **Ray-Ban Stories**, **Meta Quest**, and **Meta Portal**, shipping three open source NLU data sets ([TOP](https://aclanthology.org/D18-1300.pdf), [TOPv2](https://arxiv.org/pdf/2010.03546.pdf), and [MTOP](https://aclanthology.org/2021.eacl-main.257.pdf))\n* Worked with many partners to develop the schema, ontology, and guidelines for tree-based NLU (TOP) from inception through **product delivery**, enabling the launch of **Hey Facebook**.\n* Developed and maintained **model-based** and **rule-based** **NLU** systems and grammars, improving system accuracy to 95% on complex, multifaceted Q&A domains.\n* Developed and maintained **ASR** **language models**, grammars, and other components, reducing Word Error Rates on several domains including on search dictation by 50%.\n* Wrote and maintained data creation, curation, and annotation guidelines for projects across the stack including ASR, NLU, Q&A, Search, and NLG, used in the collection of **millions of rows of data**.\n* Designed, iterated upon, and shipped new end to end features with my product team such as semantic search, increasing **total search-driven revenue by 2%** in one quarter.\n* Managed a **$10 million** annual budget delivering **quality data** for several high impact domains including  **app search**, **calling**, **messaging**, **reminders**, **open Q&A**, and **social** across the entire stack, from **ASR** and **NLU** to **NLG**.\n\n**Leadership**: Led a team of Linguists delivering exceptional products on **Meta Quest**, **Meta Portal**, and more, owning ASR and NLU components and managing data collections for several search modules.\n* Worked with Product Managers, Engineering Managers, and Technology Leads from **across the product pipeline** (ASR, NLU, Q&A, NLG, etc.) to create project goals, prepare technical plans, and execute.\n* Coordinated work with other teams **across the product pipeline**, from speech recognition (ASR) through language understanding (NLU) to text to speech (TTS), and built internal and external relationships.\n* Managed direct reports, project teams, and directed up to **one hundred annotators** to exceed top level organizational objectives of end-to-end system quality.\n* Developed individuals' **technical** and **soft** skills through project leadership, goal setting, and mentoring.\n\n**Technical Direction**: Drove improvements across the product stack through data-driven opportunity analysis and aligning stakeholders around common goals.\n* Drove improvements in ASR and NLU development processes across the organization, improving top line quality in some domains from 85% to 95% (-65% error).\n* Triaged high visibility bug traffic through data-driven blame processes to get alignment on priorities.\n\n**Recruiting**: Created and developed **hiring goals**, job postings, core competencies, and interview questions.\n* Conducted dozens of interviews, additionally acting as hiring coordinator for dozens of contractors.\n* Developed technical and non-technical roles in **collaboration with key stakeholders** and peers."
     },
     {
-      "company": "FirstRain",
+      "position": "Linguistic Tools Engineering Lead",
+      "name": "PRO Unlimited @ Facebook",
+      "location": "Seattle, WA",
+      "startDate": "2018-01-08",
+      "endDate": "2019-05-26",
+      "summary": "Led a four person engineering team to develop tools for ontology development, data annotation, quality management, and metrics.\n* Developed CLI and web-based tools for ontology development, annotation quality, data quality, annotator training, inter-annotator agreement and model metrics, guidelines management, and annotation visualization in Python, PHP/Hack, and JavaScript/React.\n* Worked with highly cross-functional team to implement a zero-to-one voice app management system with complex UX design, storage budget, and system design constraints, supporting the [refresh](https://medium.com/wit-ai/introducing-the-refreshed-wit-ai-3a7c603d325a) of [wit.ai](wit.ai)\n* Designed and implemented annotation tools for **collection and annotation tasks for NLP** in React and Hack used to collect millions of annotations by hundreds of annotators across dozens of projects.\n* Led a four person engineering team, leading design discussions, organizing projects and workloads, and providing technical leadership and mentorship. Coordinated with other teams, built internal and external relationships, and developed individuals' skills. Consulted on contracts for Quality Assurance and technical requirements.\n* Created and developed hiring goals, job postings, core competencies, and interview questions for technical and non-technical roles in collaboration with key stake holders and peers. Conducted and reviewed dozens of interviews."
+    },
+    {
+      "position": "Linguist",
+      "name": "Appen @ Facebook",
+      "location": "Seattle, WA",
+      "startDate": "2017-07-17",
+      "endDate": "2018-01-07",
+      "summary": "Ontologist, annotator, and developer supporting digital assistant annotation workflows for Natural Language Understanding.\n* Worked closely with client to develop schema, ontology, and guidelines for tree-based, task oriented semantic annotation (TOP) from model inception through product delivery of Facebook Portal.\n* Annotated open class Q&A, navigation, and communications domain data with dependency parses and TOP labels.\n* Developed tools to improve annotation quality and speed, including a custom annotation UI and annotation validators."
+    },
+    {
+      "position": "Natural Language Processing Engineer",
+      "name": "FirstRain",
       "location": "San Mateo, CA",
-      "description": "Led the injection of NLP techniques across several products",
       "startDate": "2015-04-06",
       "endDate": "2016-10-07",
-      "position": "Natural Language Processing Engineer",
-      "highlights": [
-        "Information Extraction: Owned and improved an Information Extraction engine processing thousands of documents every day, built on top of Stanford’s TokensRegex system.",
-        "Entity Linking: Designed, developed, and deployed a system matching named entities with topics over 100,000 documents per day."
-      ]
+      "summary": "Led the injection of NLP techniques across several products.\n* Owned and improved an Information Extraction engine processing thousands of documents every day, built on top of Stanford's TokensRegex system.\n* Designed, developed, and deployed a system matching named entities with topics over 100,000 documents per day."
     }
   ],
   "education": [
@@ -40,48 +54,87 @@
       "courses": [
         "Thesis: Extended the Grammar Matrix, an open source grammar engineering project using HPSG, to enable the morphological, syntactic, and semantic analysis of adjectives cross-linguistically.",
         "Natural Language Processing: tokenization, POS tagging, chunking, parsing, word sense disambiguation, sentiment analysis, coreference resolution, etc. using FSA/FSTs, CKY, etc.",
-        "Machine Learning: classification, clustering, and sequence labeling using Neural Networks (DNN, CNN, RNN, etc.), Naïve Bayes, MaxEnt/Logistic Regression, K-means, etc."
+        "Machine Learning: classification, clustering, and sequence labeling using Neural Networks (DNN, CNN, RNN, etc.), Naïve Bayes, MaxEnt/Logistic Regression, K-means, etc."
       ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "French",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Beginner"
     }
   ],
   "skills": [
     {
-      "name": "Natural languages",
+      "name": "Programming",
+      "level": "12 years",
       "keywords": [
-        "English (native)",
-        "French (intermediate)",
-        "Japanese (beginner)",
-        "Italian (beginner)"
+        "Python",
+        "JavaScript/React",
+        "PHP/Hack",
+        "Java"
       ]
     },
     {
-      "name": "Programming languages",
+      "name": "NLP+ML",
+      "level": "10 years",
       "keywords": [
-        "Python (7 years)",
-        "JavaScript/React (7 years)",
-        "PHP/Hack (8 years)",
-        "Java (5 years)"
+        "NLTK",
+        "NumPy",
+        "pandas",
+        "Stanford coreNLP",
+        "TensorFlow"
       ]
-    },
-    {
-      "name": "NLP Packages",
-      "level": "4 years",
-      "keywords": ["nltk", "coreNLP"]
-    },
-    {
-      "name": "NLP/Machine Learning Software Packages",
-      "level": "2 years",
-      "keywords": ["TensorFlow", "NumPy"]
     },
     {
       "name": "VCS",
-      "level": "8 years",
-      "keywords": ["git", "svn", "mercurial"]
+      "level": "11 years",
+      "keywords": [
+        "git",
+        "svn",
+        "mercurial"
+      ]
     },
     {
       "name": "IDE",
-      "level": "6 years",
-      "keywords": ["Atom/Nuclide", "Eclipse"]
+      "level": "11 years",
+      "keywords": [
+        "Atom/Nuclide",
+        "VS Code",
+        "Eclipse"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "20 years of the Grammar Matrix: cross-linguistic hypothesis testing of increasingly complex interactions",
+      "publisher": "Journal of Language Modelling",
+      "releaseDate": "2022-10-20",
+      "url": "https://jlm.ipipan.waw.pl/index.php/JLM/article/download/292/263",
+      "summary": "A ten year summary paper describing how the Grammar Matrix grew in the last decade and describing how new additions to the system have made it possible to study interactions between analyses, both monolingually and cross-linguistically, at new levels of complexity."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Grammar Matrix",
+      "description": "An open source toolkit for the development of broad-coverage, precision, implemented grammars for diverse languages.",
+      "highlights": [
+        "Contributed the adjective and copula libraries to enable the morphological, syntactic, and semantic analysis of adjectives cross-linguistically."
+      ],
+      "startDate": "2013-09-25",
+      "url": "http://matrix.delph-in.net/",
+      "roles": [
+        "contributor",
+        "evangelist"
+      ]
     }
   ]
 }

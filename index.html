@@ -1,188 +1,404 @@
-<!doctype html>
-<html>
-  <head>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><style>@charset "UTF-8";
+/* Workaround for 'break-before:avoid' */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
 
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+ul, li {
+  margin: 0;
+  padding: 0;
+}
 
-    <title>T.J. Trimble</title>
+span, q {
+  display: block;
+}
 
-    <link rel="stylesheet" type="text/css" href="styles.css">
+p {
+  margin: 0;
+}
 
-  </head>
-  <body>
+@page {
+  size: A4;
+  margin: 15mm 0 20mm 0;
+}
+@page :first {
+  margin-top: 10mm;
+}
+a {
+  color: #222222;
+  font-weight: inherit;
+  text-decoration: none;
+}
+a[href] {
+  text-decoration: underline;
+  text-decoration-color: #888888;
+}
 
-    <div id='resume'>
-      <div id='nameBlock'>
-        <span class='name'>
-          T.J. Trimble
-        </span>
-      </div>
-      <div id='basicsBlock'>
-        <div class='contactBlock'>
-          <span class='website'>trimblet.com</span>
-        </div>
-      </div>
-      <div class='sectionLine'></div>
+p, q {
+  line-height: 1.25em;
+}
 
+li {
+  line-height: 1.35em;
+}
+li:first-child {
+  margin-top: 0;
+}
 
-      <div id='workBlock' class="sectionBlock">
-        <div class='sectionName'>
-          <span>EXPERIENCE</span>
-        </div>
-        <div class='sectionContent'>
-          <div class="jobBlock">
-            <div class='blockHeader'>
-              <div>
-                <div class='jobTitle'>Linguist - Facebook</div>
-                <div class='date'>2019-05-27 – Present</div>
-              </div>
-              <div>
-                <div class='jobTitle'>Linguist - PRO Unlimited @ Facebook</div>
-                <div class='date'>2018-01-08 – 2019-05-26</div>
-              </div>
-              <div>
-                <div class='jobTitle'>Linguist - Appen @ Facebook</div>
-                <div class='date'>2017-07-17 – 2018-01-07</div>
-              </div>
-              </div>
-            <div><a href=''></a></div>
-            <ul class='highlights'>
-              <li><b>Linguistics</b>: Developed linguistic foundation and future for <b>Hey Facebook</b> on <b>Facebook Portal</b>, <b>Oculus</b>, and <b>Ray-Ban Stories</b>, shipping three open source data sets (<a href="https://aclanthology.org/D18-1300.pdf">TOP</a>, <a href="https://arxiv.org/pdf/2010.03546.pdf">TOPv2</a>, and <a href="https://aclanthology.org/2021.eacl-main.257.pdf">MTOP</a>)
-                <ul>
-                  <li>Worked with many partners to develop the schema, ontology, and guidelines for tree-based semantic parsing (TOP) from inception through <b>product delivery</b>, enabling the launch of </b>Hey Facebook</b>.</li>
-                  <li>Managed a <b>$10 million</b> annual budget delivering <b>quality data</b> for several high impact domains including <b>social</b>, <b>calling</b>, <b>messaging</b>, and <b>reminders</b> across the entire stack, from <b>ASR</b> and <b>NLU</b> to <b>NLG</b>.</li>
-                </ul>
-              </li>
-              <li><b>Software Engineering</b>: Organized <b>tools, processes, and workflows</b> for ontology development, guidelines management, data quality, annotator training, inter-annotator agreement and model metrics, and annotation visualization, supporting <b>the refresh of wit.ai</b>
-                <ul>
-                  <li>Designed and implemented annotation tools for <b> collection and annotation tasks for NLP</b> in React and Hack used to collect millions of annotations by hundreds of annotators across dozens of projects.</li>
-                  <li>Worked with highly cross-functional team to implement a zero-to-one voice app management system with complex UX design, storage budget, and system design constraints.</li>
-                </ul>
-              </li>
-              <li><b>Leadership</b>: Acted as <b>linguistic project lead</b> for major organization initiatives, managed <b>three direct reports</b> and a project team of seven, and mentored interns, organizing projects and workloads, handling cross functional communication, and providing direction and mentorship.
-                <ul>
-                  <li>Worked with Product Managers, Engineering Managers, and Technology Leads from <b>across the product pipeline</b> (ASR, NLU, Q&A, NLG, etc.) to create project goals, prepare technical plans, and execute.</li>
-                  <li>Developed individuals' <b>technical, soft, and mentoring skills</b> through project leadership, goal setting, and mentoring.</li>
-                </ul>
-              </li>
-              <li><b>Recruiting</b>: Created and developed <b>hiring goals</b>, job postings, core competencies, and interview questions.
-                <ul>
-                  <li>Conducted and reviewed dozens of interviews, acting as contractor hiring program coordinator.</li>
-                  <li>Developed technical and non-technical roles in <b>collaboration with key stakeholders</b> and peers.</li>
-                </ul>
-              </li>
-            </ul>
-            <div class='separator'></div>
-          </div>
-          <div class="jobBlock">
-            <div class='blockHeader'>
-              <div class='company'>FirstRain, Inc.</div>
-              <div class='jobTitle'>Natural Language Processing Engineer</div>
-              <div class='date'>2015-04-06 &mdash; 2016-10-07</div>
-            </div>
-            <div><a href=''></a></div>
-            <ul class='highlights'>
-              <li><b>Information Extraction</b>: Owned and improved an Information Extraction engine processing thousands of documents every day, built on top of Stanford’s TokensRegex system.</li>
-              <li><b>Entity Linking</b>: Designed, developed, and deployed a system matching named entities with topics over 100,000 documents per day.</li>
-            </ul>
+.content {
+  width: 1000px;
+  height: auto;
+  padding: 0 50px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #222222;
+}
 
-          </div>
-        </div>
-      </div>
-      <div class='sectionLine'></div>
+.table {
+  width: 100%;
+  display: table;
+}
+.table .main {
+  display: table-cell;
+  width: 70%;
+  padding-right: 50px;
+}
+.table .side {
+  display: table-cell;
+  width: 30%;
+  padding-left: 50px;
+  text-align: right;
+}
 
+.summary {
+  font-size: 15px;
+}
+.summary:empty {
+  display: none;
+}
 
-      <div id='education' class="sectionBlock">
-        <div class='sectionName'>
-          <span>EDUCATION</span>
-        </div>
-        <div class='sectionContent'>
-          <div class='educationBlock'>
-            <span class='jobTitle'>
-              University of Washington
-            </span>
-            <span class='date'>
-              2012-09-24 &mdash; 2014-12-05
-            </span>
-            <div class=''>
-              Master of Science  - Computational Linguistics
-            </div>
-            <div id='coursesBlock'>
-              <ul class='coursesList'>
-                <li class='course'>Thesis: Extended the Grammar Matrix, an open source grammar engineering project using HPSG, to enable the morphological, syntactic, and semantic analysis of adjectives cross-linguistically.</li>
-              </ul>
-              <ul class='coursesList'>
-                <li class='course'>Natural Language Processing: tokenization, POS tagging, chunking, parsing, word sense disambiguation, sentiment analysis, coreference resolution, etc. using FSA/FSTs, CKY, etc.</li>
-              </ul>
-              <ul class='coursesList'>
-                <li class='course'>Machine Learning: classification, clustering, and sequence labeling using Neural Networks (DNN, CNN, RNN, etc.), Naïve Bayes, MaxEnt/Logistic Regression, K-means, etc.</li>
-              </ul>
-            </div>
-          </div>
+.section-title {
+  font-size: 26px;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+}
 
-        </div>
-      </div>
-      <div class='sectionLine'></div>
+.margin-container-2:not(:first-child) {
+  margin-top: 20px;
+}
 
-      <div id='skills' class="sectionBlock">
-        <div class='sectionName'>
-          <span>SKILLS</span>
-        </div>
-        <div class='sectionContent'>
-          <div class='skillBlock'>
-            <span class='title'>Natural languages:</span>
-            <ul>
-              <li>English (native)</li>
-              <li>French (intermediate)</li>
-              <li>Japanese (beginner)</li>
-              <li>Italian (beginner)</li>
-            </ul>
-          </div>
-          <div class='skillBlock'>
-            <span class='title'>Programming languages:</span>
-            <ul>
-              <li>Python (9 years)</li>
-              <li>JavaScript/React (9 years)</li>
-              <li>PHP/Hack (10 years)</li>
-              <li>Java (7 years)</li>
-            </ul>
-          </div>
-          <div class='skillBlock'>
-            <span class='title'>NLP Packages <em>(9 years)</em>:</span>
-            <ul>
-              <li>nltk</li>
-              <li>coreNLP</li>
-              <li>spaCy</li>
-            </ul>
-          </div>
-          <div class='skillBlock'>
-            <span class='title'>NLP/ML Software Packages <em>(5 years)</em>:</span>
-            <ul>
-              <li>TensorFlow</li>
-              <li>NumPy</li>
-            </ul>
-          </div>
-          <div class='skillBlock'>
-            <span class='title'>VCS <em>(10 years)</em>:</span>
-            <ul>
-              <li>git</li>
-              <li>svn</li>
-              <li>mercurial</li>
-            </ul>
-          </div>
-          <div class='skillBlock'>
-            <span class='title'>IDE <em>(9 years)</em>:</span>
-            <ul>
-              <li>Atom/VSCode/Nuclide</li>
-              <li>Eclipse</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class='sectionLine'></div>
+.margin-container-3:not(:first-child) {
+  margin-top: 30px;
+}
 
+.margin-container-4:not(:first-child) {
+  margin-top: 50px;
+}
 
+.padding-container-2 {
+  padding: 20px 0;
+}
 
-    </body>
-</html>
+.margin-text-1 {
+  margin-top: 2px;
+}
+.margin-text-1:empty {
+  display: none;
+}
+
+.margin-text-2 {
+  margin-top: 4px;
+}
+.margin-text-2:empty {
+  display: none;
+}
+
+.margin-text-3 {
+  margin-top: 6px;
+}
+.margin-text-3:empty {
+  display: none;
+}
+
+.margin-text-4 {
+  margin-top: 8px;
+}
+.margin-text-4:empty {
+  display: none;
+}
+
+.margin-text-5 {
+  margin-top: 14px;
+}
+.margin-text-5:empty {
+  display: none;
+}
+
+.no-break {
+  break-inside: avoid;
+}
+
+.no-alone-1 {
+  break-inside: avoid;
+}
+.no-alone-1::after {
+  content: "";
+  display: block;
+  height: 75px;
+  margin-bottom: -75px;
+}
+
+.no-alone-2 {
+  break-inside: avoid;
+}
+.no-alone-2::after {
+  content: "";
+  display: block;
+  height: 150px;
+  margin-bottom: -150px;
+}
+
+.markdown h1 {
+  font-size: 160%;
+  font-weight: bolder;
+}
+.markdown h2 {
+  font-size: 150%;
+  font-weight: bolder;
+}
+.markdown h3 {
+  font-size: 140%;
+  font-weight: bolder;
+}
+.markdown h4 {
+  font-size: 130%;
+  font-weight: bold;
+}
+.markdown h5 {
+  font-size: 120%;
+  font-weight: bold;
+}
+.markdown h6 {
+  font-size: 110%;
+  font-weight: bold;
+}
+.markdown ul, .markdown ol {
+  margin-left: 20px;
+}
+.markdown img {
+  display: block;
+  margin: 20px auto;
+  max-width: 1000px;
+  text-align: center;
+}
+.markdown blockquote {
+  margin: 20px 0;
+  padding: 15px 20px;
+}
+.markdown blockquote p {
+  display: inline;
+}
+.markdown code {
+  font-family: monospace;
+}
+
+.main .highlights {
+  width: auto;
+  display: block;
+  padding: 0 10px;
+  margin-bottom: 0;
+  columns: 2;
+  column-width: 310px;
+  column-gap: 10px;
+}
+.main .highlights li {
+  font-size: 14px;
+  list-style: none;
+}
+.main .highlights li:before {
+  content: "· ";
+  vertical-align: middle;
+}
+.main .left {
+  display: table-cell;
+}
+.main .left .title {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+.main .left .subtitle {
+  font-size: 16px;
+  font-weight: lighter;
+  display: block;
+}
+.main .right {
+  text-align: right;
+  display: table-cell;
+}
+.main .right .date {
+  font-size: 15px;
+  font-weight: lighter;
+  white-space: nowrap;
+}
+
+.basics .main {
+  vertical-align: middle;
+}
+.basics .main .name {
+  font-size: 80px;
+  line-height: 1em;
+  font-weight: bold;
+  display: block;
+  margin-left: -5.6px;
+}
+.basics .main .label {
+  font-size: 40px;
+  line-height: 1em;
+  font-weight: lighter;
+  display: block;
+  margin-left: -1.6px;
+}
+.basics .side {
+  vertical-align: middle;
+  padding-left: 0;
+  padding-top: 15px;
+}
+.basics .side .contact {
+  list-style-type: none;
+}
+.basics .side .contact li {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.links ul {
+  list-style: none;
+}
+.links ul li {
+  font-size: 14px;
+}
+
+.education .title {
+  font-size: 15px;
+}
+.education .institution {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.awards .header .title {
+  font-size: 15px;
+}
+.awards .header .awarder {
+  font-size: 15px;
+  font-weight: lighter;
+}
+.awards .summary {
+  font-size: 14px;
+}
+
+.certificates .name {
+  font-size: 15px;
+}
+.certificates .issuer {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.skills .section-title {
+  margin: 0;
+}
+.skills .container {
+  display: block;
+  columns: 2;
+  column-gap: 10px;
+}
+.skills .container .article {
+  break-inside: avoid-column;
+  min-width: 120px;
+  padding-top: 20px;
+}
+.skills .container .article span {
+  display: block;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.skills .container .article li {
+  font-size: 14px;
+  list-style: none;
+}
+
+.languages ul {
+  list-style: none;
+}
+.languages ul li {
+  font-size: 14px;
+}
+
+.interests ul {
+  list-style: none;
+}
+.interests ul li {
+  font-size: 14px;
+}
+
+.references .name {
+  font-size: 15px;
+}
+.references q {
+  font-size: 14.5px;
+  font-weight: lighter;
+  font-style: italic;
+}</style><title>Resume T.J. Trimble – Linguist</title></head><body><div class="content"><div class="basics"><div class="table padding-container-2"><div class="main"><span class="name">T.J. Trimble</span><span class="label">Linguist</span></div><div class="side"><ul class="contact"><li></li><li></li><li class="margin-text-5">Seattle, WA</li></ul></div></div></div><div class="table padding-container-2"><div class="main"><div class="work margin-container-4"><p class="section-title no-alone-2">Experience</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Senior Linguist</span><span class="subtitle margin-text-1"><a>Meta</a> · Seattle, WA</span></div><div class="right"><span class="date">May 2019 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p><strong>Linguistics</strong>: Acted as <strong>linguistic project lead</strong> for major organization initiatives, developing linguistic foundation and future for <strong>Facebook Assistant</strong> on <strong>Ray-Ban Stories</strong>, <strong>Meta Quest</strong>, and <strong>Meta Portal</strong>, shipping three open source NLU data sets (<a href="https://aclanthology.org/D18-1300.pdf">TOP</a>, <a href="https://arxiv.org/pdf/2010.03546.pdf">TOPv2</a>, and <a href="https://aclanthology.org/2021.eacl-main.257.pdf">MTOP</a>)</p>
+<ul>
+<li>Worked with many partners to develop the schema, ontology, and guidelines for tree-based NLU (TOP) from inception through <strong>product delivery</strong>, enabling the launch of <strong>Hey Facebook</strong>.</li>
+<li>Developed and maintained <strong>model-based</strong> and <strong>rule-based</strong> <strong>NLU</strong> systems and grammars, improving system accuracy to 95% on complex, multifaceted Q&amp;A domains.</li>
+<li>Developed and maintained <strong>ASR</strong> <strong>language models</strong>, grammars, and other components, reducing Word Error Rates on several domains including on search dictation by 50%.</li>
+<li>Wrote and maintained data creation, curation, and annotation guidelines for projects across the stack including ASR, NLU, Q&amp;A, Search, and NLG, used in the collection of <strong>millions of rows of data</strong>.</li>
+<li>Designed, iterated upon, and shipped new end to end features with my product team such as semantic search, increasing <strong>total search-driven revenue by 2%</strong> in one quarter.</li>
+<li>Managed a <strong>$10 million</strong> annual budget delivering <strong>quality data</strong> for several high impact domains including  <strong>app search</strong>, <strong>calling</strong>, <strong>messaging</strong>, <strong>reminders</strong>, <strong>open Q&amp;A</strong>, and <strong>social</strong> across the entire stack, from <strong>ASR</strong> and <strong>NLU</strong> to <strong>NLG</strong>.</li>
+</ul>
+<p><strong>Leadership</strong>: Led a team of Linguists delivering exceptional products on <strong>Meta Quest</strong>, <strong>Meta Portal</strong>, and more, owning ASR and NLU components and managing data collections for several search modules.</p>
+<ul>
+<li>Worked with Product Managers, Engineering Managers, and Technology Leads from <strong>across the product pipeline</strong> (ASR, NLU, Q&amp;A, NLG, etc.) to create project goals, prepare technical plans, and execute.</li>
+<li>Coordinated work with other teams <strong>across the product pipeline</strong>, from speech recognition (ASR) through language understanding (NLU) to text to speech (TTS), and built internal and external relationships.</li>
+<li>Managed direct reports, project teams, and directed up to <strong>one hundred annotators</strong> to exceed top level organizational objectives of end-to-end system quality.</li>
+<li>Developed individuals' <strong>technical</strong> and <strong>soft</strong> skills through project leadership, goal setting, and mentoring.</li>
+</ul>
+<p><strong>Technical Direction</strong>: Drove improvements across the product stack through data-driven opportunity analysis and aligning stakeholders around common goals.</p>
+<ul>
+<li>Drove improvements in ASR and NLU development processes across the organization, improving top line quality in some domains from 85% to 95% (-65% error).</li>
+<li>Triaged high visibility bug traffic through data-driven blame processes to get alignment on priorities.</li>
+</ul>
+<p><strong>Recruiting</strong>: Created and developed <strong>hiring goals</strong>, job postings, core competencies, and interview questions.</p>
+<ul>
+<li>Conducted dozens of interviews, additionally acting as hiring coordinator for dozens of contractors.</li>
+<li>Developed technical and non-technical roles in <strong>collaboration with key stakeholders</strong> and peers.</li>
+</ul>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Linguistic Tools Engineering Lead</span><span class="subtitle margin-text-1"><a>PRO Unlimited @ Facebook</a> · Seattle, WA</span></div><div class="right"><span class="date">Jan 2018 - May 2019</span></div></div></div><div class="summary markdown margin-text-4"><p>Led a four person engineering team to develop tools for ontology development, data annotation, quality management, and metrics.</p>
+<ul>
+<li>Developed CLI and web-based tools for ontology development, annotation quality, data quality, annotator training, inter-annotator agreement and model metrics, guidelines management, and annotation visualization in Python, PHP/Hack, and JavaScript/React.</li>
+<li>Worked with highly cross-functional team to implement a zero-to-one voice app management system with complex UX design, storage budget, and system design constraints, supporting the <a href="https://medium.com/wit-ai/introducing-the-refreshed-wit-ai-3a7c603d325a">refresh</a> of <a href="wit.ai">wit.ai</a></li>
+<li>Designed and implemented annotation tools for <strong>collection and annotation tasks for NLP</strong> in React and Hack used to collect millions of annotations by hundreds of annotators across dozens of projects.</li>
+<li>Led a four person engineering team, leading design discussions, organizing projects and workloads, and providing technical leadership and mentorship. Coordinated with other teams, built internal and external relationships, and developed individuals' skills. Consulted on contracts for Quality Assurance and technical requirements.</li>
+<li>Created and developed hiring goals, job postings, core competencies, and interview questions for technical and non-technical roles in collaboration with key stake holders and peers. Conducted and reviewed dozens of interviews.</li>
+</ul>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Linguist</span><span class="subtitle margin-text-1"><a>Appen @ Facebook</a> · Seattle, WA</span></div><div class="right"><span class="date">Jul 2017 - Jan 2018</span></div></div></div><div class="summary markdown margin-text-4"><p>Ontologist, annotator, and developer supporting digital assistant annotation workflows for Natural Language Understanding.</p>
+<ul>
+<li>Worked closely with client to develop schema, ontology, and guidelines for tree-based, task oriented semantic annotation (TOP) from model inception through product delivery of Facebook Portal.</li>
+<li>Annotated open class Q&amp;A, navigation, and communications domain data with dependency parses and TOP labels.</li>
+<li>Developed tools to improve annotation quality and speed, including a custom annotation UI and annotation validators.</li>
+</ul>
+</div></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Natural Language Processing Engineer</span><span class="subtitle margin-text-1"><a>FirstRain</a> · San Mateo, CA</span></div><div class="right"><span class="date">Apr 2015 - Oct 2016</span></div></div></div><div class="summary markdown margin-text-4"><p>Led the injection of NLP techniques across several products.</p>
+<ul>
+<li>Owned and improved an Information Extraction engine processing thousands of documents every day, built on top of Stanford's TokensRegex system.</li>
+<li>Designed, developed, and deployed a system matching named entities with topics over 100,000 documents per day.</li>
+</ul>
+</div></div></div></div><div class="projects margin-container-4"><p class="section-title no-alone-2">Projects</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Contributor and evangelist</span><span class="subtitle margin-text-1"><a href="http://matrix.delph-in.net/">Grammar Matrix</a></span></div><div class="right"><span class="date">Sep 2013 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p>An open source toolkit for the development of broad-coverage, precision, implemented grammars for diverse languages.</p>
+</div><ul class="highlights margin-text-4 no-break"><li>Contributed the adjective and copula libraries to enable the morphological, syntactic, and semantic analysis of adjectives cross-linguistically.</li></ul></div></div></div><div class="publications margin-container-4"><p class="section-title no-alone-2">Publications</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title"><a href="https://jlm.ipipan.waw.pl/index.php/JLM/article/download/292/263">20 years of the Grammar Matrix: cross-linguistic hypothesis testing of increasingly complex interactions</a></span><span class="subtitle margin-text-1">Journal of Language Modelling</span></div><div class="right"><span class="date">Oct 2022</span></div></div></div><div class="summary markdown margin-text-4"><p>A ten year summary paper describing how the Grammar Matrix grew in the last decade and describing how new additions to the system have made it possible to study interactions between analyses, both monolingually and cross-linguistically, at new levels of complexity.</p>
+</div></div></div></div></div><div class="side"><div class="skills margin-container-4"><p class="section-title no-alone-1">Skills</p><div class="container"><div class="article no-break"><span>Programming</span><ul class="margin-text-2"><li>Python</li><li>JavaScript/React</li><li>PHP/Hack</li><li>Java</li></ul></div><div class="article no-break"><span>NLP+ML</span><ul class="margin-text-2"><li>NLTK</li><li>NumPy</li><li>pandas</li><li>Stanford coreNLP</li><li>TensorFlow</li></ul></div><div class="article no-break"><span>VCS</span><ul class="margin-text-2"><li>git</li><li>svn</li><li>mercurial</li></ul></div><div class="article no-break"><span>IDE</span><ul class="margin-text-2"><li>Atom/Nuclide</li><li>VS Code</li><li>Eclipse</li></ul></div></div></div><div class="education margin-container-4"><p class="section-title no-alone-1">Education</p><div class="container"><div class="article margin-container-2 no-break"><div class="title markdown"><p>Master of Science, Computational Linguistics</p>
+</div><span class="institution margin-text-2"><a>University of Washington</a></span></div></div></div><div class="languages margin-container-4 no-break"><p class="section-title no-alone-1">Languages</p><div class="container"><ul><li class="article margin-text-2">English · Native</li><li class="article margin-text-2">French · Intermediate</li><li class="article margin-text-2">Japanese · Beginner</li></ul></div></div></div></div></div></body></html>
