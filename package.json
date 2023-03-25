@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "jsonresume-theme-actual": "^0.2.1",
-    "jsonresume-theme-onepage": "^0.0.3",
     "resumed": "^3.0.1"
   }
 }
