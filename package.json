@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "jsonresume-theme-actual": "^0.2.1",
+    "jsonresume-theme-full": "^0.0.4",
+    "jsonresume-theme-macchiato": "^1.1.0",
     "resumed": "^3.0.1"
   }
 }
