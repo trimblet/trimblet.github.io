@@ -5,7 +5,8 @@
     "location": {
       "city": "Seattle",
       "region": "WA"
-    }
+    },
+    "summary": "I'm a Linguist and Software Engineer based in Seattle with a background in Natural Language Processing, including Speech Recognition, Natural Language Understanding, and Information Retrieval, with over a decade of programming experience. I have project management experience developing critical features with diverse partners supporting product launches like Meta Portal and Ray-Ban Stories. I'm focused on driving data-driven improvements, managing teams, and shaping the future of language technology."
   },
   "meta": {
     "theme": "jsonresume-theme-actual"
@@ -24,7 +25,7 @@
       "location": "Seattle, WA",
       "startDate": "2018-01-08",
       "endDate": "2019-05-26",
-      "summary": "Led a four person engineering team to develop tools for ontology development, data annotation, quality management, and metrics.\n* Developed CLI and web-based tools for ontology development, annotation quality, data quality, annotator training, inter-annotator agreement and model metrics, guidelines management, and annotation visualization in Python, PHP/Hack, and JavaScript/React.\n* Worked with highly cross-functional team to implement a zero-to-one voice app management system with complex UX design, storage budget, and system design constraints, supporting the [refresh](https://medium.com/wit-ai/introducing-the-refreshed-wit-ai-3a7c603d325a) of [wit.ai](wit.ai)\n* Designed and implemented annotation tools for **collection and annotation tasks for NLP** in React and Hack used to collect millions of annotations by hundreds of annotators across dozens of projects.\n* Led a four person engineering team, leading design discussions, organizing projects and workloads, and providing technical leadership and mentorship. Coordinated with other teams, built internal and external relationships, and developed individuals' skills. Consulted on contracts for Quality Assurance and technical requirements.\n* Created and developed hiring goals, job postings, core competencies, and interview questions for technical and non-technical roles in collaboration with key stake holders and peers. Conducted and reviewed dozens of interviews."
+      "summary": "Led a four person engineering team to develop tools for ontology development, data annotation, quality management, and metrics.\n* Developed CLI and web-based tools for ontology development, annotation quality, data quality, annotator training, inter-annotator agreement and model metrics, guidelines management, and annotation visualization in Python, PHP/Hack, and JavaScript/React.\n* Worked with highly cross-functional team to implement a zero-to-one voice app management system with complex UX design, storage budget, and system design constraints, supporting the [refresh](https://medium.com/wit-ai/introducing-the-refreshed-wit-ai-3a7c603d325a) of [wit.ai](http://wit.ai)\n* Designed and implemented annotation tools for **collection and annotation tasks for NLP** in React and Hack used to collect millions of annotations by hundreds of annotators across dozens of projects.\n* Led a four person engineering team, leading design discussions, organizing projects and workloads, and providing technical leadership and mentorship. Coordinated with other teams, built internal and external relationships, and developed individuals' skills. Consulted on contracts for Quality Assurance and technical requirements.\n* Created and developed hiring goals, job postings, core competencies, and interview questions for technical and non-technical roles in collaboration with key stake holders and peers. Conducted and reviewed dozens of interviews."
     },
     {
       "position": "Linguist",
@@ -75,7 +76,7 @@
   "skills": [
     {
       "name": "Programming",
-      "level": "12 years",
+      "level": "13 years",
       "keywords": [
         "Python",
         "JavaScript/React",
@@ -85,7 +86,7 @@
     },
     {
       "name": "NLP+ML",
-      "level": "10 years",
+      "level": "11 years",
       "keywords": [
         "NLTK",
         "NumPy",
@@ -96,7 +97,7 @@
     },
     {
       "name": "VCS",
-      "level": "11 years",
+      "level": "12 years",
       "keywords": [
         "git",
         "svn",
@@ -105,7 +106,7 @@
     },
     {
       "name": "IDE",
-      "level": "11 years",
+      "level": "12 years",
       "keywords": [
         "Atom/Nuclide",
         "VS Code",
