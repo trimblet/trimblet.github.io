@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "theme": "elegant"
+  },
   "basics": {
     "name": "T.J. Trimble",
     "label": "Linguist",
@@ -7,9 +10,6 @@
       "region": "WA"
     },
     "summary": "I'm a Linguist and Software Engineer based in Seattle with a background in Natural Language Processing, including Speech Recognition, Natural Language Understanding, and Information Retrieval, with over a decade of programming experience. I have project management experience developing critical features with diverse partners supporting product launches like Meta Portal and Ray-Ban Stories. I'm focused on driving data-driven improvements, managing teams, and shaping the future of language technology."
-  },
-  "meta": {
-    "theme": "full"
   },
   "work": [
     {
